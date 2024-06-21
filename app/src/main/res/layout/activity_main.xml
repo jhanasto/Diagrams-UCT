@@ -136,7 +136,7 @@
         android:hint="Nombre"
         android:textColorHint="#757575"
         android:singleLine="true"
-        tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+        tools:ignore="Autofill,HardcodedText,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
     <EditText
         android:id="@+id/etCantidad"
@@ -164,7 +164,7 @@
             android:layout_weight="1"
             android:textSize="12sp"
             android:text="AGREGAR"
-            tools:ignore="HardcodedText,VisualLintButtonSize" />
+            tools:ignore="ButtonStyle,HardcodedText,VisualLintButtonSize" />
 
         <Button
             android:id="@+id/btnGraficar"
@@ -174,7 +174,7 @@
             android:layout_weight="1"
             android:textSize="12sp"
             android:text="BORAR DATOS"
-            tools:ignore="HardcodedText,VisualLintButtonSize" />
+            tools:ignore="ButtonStyle,HardcodedText,VisualLintButtonSize" />
 
     </LinearLayout>
 
